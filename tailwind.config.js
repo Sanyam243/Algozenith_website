@@ -20,6 +20,7 @@ export default {
 			text1:'#6991d5',
 			itemcolor:'#20588c',
 			bordercolor:'#baecff',
+			progress_bar:'#384a68',
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {
