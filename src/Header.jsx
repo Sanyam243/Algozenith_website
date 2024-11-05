@@ -4,7 +4,7 @@ import Bell from './assets/Bell_icon.png'
 function Header() {
   return (
     <div>
-       <div className='p-5 shadow-sm border flex justify-between font-outlier'>
+       <div className='p-5  font-abc shadow-sm  flex justify-between font-outlier'>
     <span className='flex p-1 text-1xl font-extrabold sm:text-2xl gap-2 '>
       <img src={Menu} />
         Algozenith

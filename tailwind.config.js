@@ -12,7 +12,14 @@ export default {
   			md: 'calc(var(--radius) - 2px)',
   			sm: 'calc(var(--radius) - 4px)'
   		},
-  		colors: {
+  		colors: 
+		{
+			custom_blue: '#f5fdff',
+			bg1:'#f2f7ff',
+			bg2:'#d6f4ff',
+			text1:'#6991d5',
+			itemcolor:'#20588c',
+			bordercolor:'#baecff',
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {
@@ -64,7 +71,11 @@ export default {
   				ring: 'hsl(var(--sidebar-ring))'
   			}
   		}
-  	}
+  	},
+	fontFamily:{
+		abc:["Inter"]
+	}
+
   },
   plugins: [require("tailwindcss-animate")],
 }

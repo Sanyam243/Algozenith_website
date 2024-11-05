@@ -62,15 +62,15 @@ function App() {
    
 
     
-       <div className='h-screen p-10  shadow-sm bg-blue-50'>
+       <div className='h-screen bg-custom_blue  p-5  shadow-sm '>
       
 
         <div>
             {menuList.map((menu)=>(
               
-                <h2 className='flex gap-5 mr-3 items-center font-small text-gray-500 p-5 cursor-pointer rounded-md
-                mb-2 hover:text-primary hover:bg-blue-100' >
-                    <img src ={menu.icon}/>
+                <h2 className='flex gap-5 mr-3 items-center font-abc text-sm p-5 px-9 cursor-pointer rounded-md
+                mb-2 hover:font-semibold hover:bg-bg2' >
+                    <img src ={menu.icon} width={20}/>
                     {menu.name}
                 </h2>
                
