@@ -207,9 +207,9 @@ function Centre() {
 
 
     
-    <div className=' p-8  shadow-lg rounded-lg '>
+    <div className=' shadow-lg rounded-lg '>
             {content.map((menu)=>(
-              <div className='flex justify-between border-b items-center   '>
+              <div className='flex justify-between border-b items-center p-1  '>
                 
                 <h2   className='flex gap-5 items-center font-abc font-bold text-sm p-5 px-9 cursor-pointer rounded-md
                 mb-2  hover:bg-bg2' >
@@ -217,8 +217,8 @@ function Centre() {
                     {menu.name}
                 </h2>
                 <div className='flex items-center'></div>
-                <Button color='blue' className='flex items-center'>
-                    <Clock/>
+                <Button variant='none' color='blue' className='flex items-center'>
+                    <Clock className='text-itemcolor'/>
                     10.00
                 </Button>
                 
@@ -302,20 +302,18 @@ function Centre() {
   <div className="bg-progress_bar h-2.5 rounded-full" style={{ width: '20%' }}></div>
 </div>
 
-
-    
-    <div className=' p-8  shadow-lg rounded-lg '>
+    <div className='shadow-lg rounded-lg '>
             {content.map((menu)=>(
               <div className='flex justify-between border-b items-center   '>
                 
                 <h2   className='flex gap-5 items-center font-abc font-bold text-sm p-5 px-9 cursor-pointer rounded-md
                 mb-2  hover:bg-bg2' >
-                   <menu.icon className='text-itemcolor text-sm'/>
+                   <menu.icon className='text-itemcolor text-sm text-left'/>
                     {menu.name}
                 </h2>
                 <div className='flex items-center'></div>
-                <Button color='blue' className='flex items-center'>
-                    <Clock/>
+                <Button variant ='none' color='blue' className='flex items-center'>
+                <Clock  className='text-itemcolor'/>
                     10.00
                 </Button>
                 
